@@ -763,6 +763,7 @@ ident(transform)
 stack=[]
 stack.append(transform)
 parser("scripts.txt",screen,[255,0,0],edge,triangle_matrix,stack)
+print("robot.png")
 #torus(edge,200,200,0,50,100)
 #add_lines(screen,edge,[0,0,255])
 #save_ppm(screen,"munnas.ppm")
